@@ -1,0 +1,89 @@
+
+
+.container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.logo{
+    margin-top: 10%;
+    width: 45%;
+    height: 35%;
+    position: relative;
+    margin-bottom: -14%;
+}
+
+.text{
+    position: relative;
+
+    color: #fff;
+    font-family: 'Righteous', cursive;
+    border: none;
+    width: 25%;
+    height: 10%;
+    font-weight: 400;
+    font-size: 3vw;
+}
+
+.BinanceLogo{
+    position: relative;
+    width: 15%;
+    height: 10%;
+    top: 10%;
+    margin-right: 1%;
+}
+
+.containerPoll{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    align-items: center;
+}
+
+.textPoll{
+    font-family: 'Righteous', sans-serif;
+    color: #fff;
+    font-size: 3vw;
+}
+
+.btnLinkPoll{
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5%;
+    background-color: #FCBE03;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.btnLinkPoll:hover{
+    transform: scale(0.9);
+}
+
+
+@media only screen and (max-width: 600px) {
+    .textPoll{
+        font-size: 5vw;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 907px) {
+    .logo{
+        margin-bottom: -22%;
+        width: 70%
+    }
+    .text{
+        width: 40%;
+        font-size: 4vw;
+    }
+    .BinanceLogo{
+        width: 25%;
+    }
+}

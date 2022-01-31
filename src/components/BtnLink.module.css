@@ -1,0 +1,40 @@
+.btn_primary{
+    padding: 15px 20px;
+    text-decoration: none;
+    background-color: #FCBE03;
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.btn_secondary{
+    padding: 15px 20px;    
+    text-decoration: none;
+    background-color: #CB0000;
+    border-radius: 5px;
+    color: #fff;    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.btn_neutral{
+    padding: 15px 20px;    
+    text-decoration: none;
+    border-radius: 5px;    
+    color: rgba(203, 0, 0, 0.5);
+    font-family: 'Roboto', sans-serif;    
+    font-weight: 700;
+}
+.btn_primary:hover{
+    transform: scale(0.9);
+    
+}
+.btn_secondary:hover{
+    transform: scale(0.9);
+    
+}
+.btn_neutral:hover{
+    transform: scale(0.9);
+    
+}

@@ -1,0 +1,34 @@
+.container{
+    width: 100%;
+    height: 32%;
+    border: 1px solid #fff;
+    padding: 10px;
+}
+
+.question{
+    font-family: 'Righteous', cursive;
+    color: #fff;
+}
+
+.resContainer{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.res{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.button{
+    padding: 15px 20px;
+    text-decoration: none;
+    background-color: #FCBE03;
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}

@@ -1,0 +1,144 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background:rgba(255, 255, 255, 0);
+    position: absolute;
+    top: -90px;
+}
+
+.nav_slider{
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
+.btn_container{
+    width: 13em;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Menu Responsive*/
+
+.navMobile{
+    display: none;
+    background-color: #fff;
+    height: 80px;
+    width: 100%;
+    justify-content:space-between;
+}
+
+.menu_off{
+    transition: all 0.5s ease;
+    top: -500px;
+    transform: scale(0.5);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+}
+
+.menu_on{
+    transition: all 0.5s ease;
+    top: 80px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    z-index: 10;
+}
+
+.btnBars{
+    padding: 25px 30px;
+}
+
+.logoLink{
+    width: 146px;
+    height: 80px;
+}
+
+.logoNavMobile{
+    /* margin-top: -38px; */
+    width: 146px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.btnUser{
+    padding: 25px 30px;
+}
+
+.elementMenuLink{
+    text-decoration: none;
+}
+
+.menuElement{
+    display: flex;
+    align-items: center;
+}
+
+.iconMenuContainer{
+    padding: 15px 30px;
+    width:10%;
+    display: flex;
+    justify-content:flex-start;
+}
+
+.textContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.textMenu{
+    color: #FCBE03;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .nav{
+        display: none;
+    }
+    .navMobile{
+        display: flex;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .nav{
+        display: none;
+    }
+    .navMobile{
+        display: flex;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 907px) {
+    .nav{
+        display: flex;
+    }
+    .navMobile{
+        display: none;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
