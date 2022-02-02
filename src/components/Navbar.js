@@ -94,7 +94,8 @@ export default function Navbar() {
                     <Logo width="190"/>
                 </Link>
                 <div className={Style.nav_slider}>
-                    <BtnLink text="Home" to="/home" color={locateOfUrl === '/home' ? btnStyle.btn_primary : btnStyle.btn_neutral}/>
+                    {console.log(locateOfUrl)}
+                    <BtnLink text="Home" to="/home" color={locateOfUrl === '/home' || locateOfUrl === '/' ? btnStyle.btn_primary : btnStyle.btn_neutral}/>
                     <a target="_blank" rel="noreferrer" href={whitepaperLink} className={btnStyle.btn_neutral}>Whitepaper</a>
                     <BtnLink text="Roadmap" to="/roadmap" color={locateOfUrl === '/roadmap' ? btnStyle.btn_primary : btnStyle.btn_neutral}/>
                     <BtnLink text="Tokenomic" to="/home" color={locateOfUrl === '/tokenomic' ? btnStyle.btn_primary : btnStyle.btn_neutral}/>
