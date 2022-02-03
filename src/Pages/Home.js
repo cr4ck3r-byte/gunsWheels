@@ -10,13 +10,10 @@ export default function Home() {
     return (
         <div>
             <img
+                className={Style.bgImg}
                 src={bg}
                 alt="background"
-                style={{
-                    width: "100%",
-                    position: "absolute",
-                    zIndex: -1
-            }}/>
+            />
             <div className={Style.container}>
                 <img src={Logo} alt="logo" className={Style.logo}/>
                 <h2 className={Style.text}>PVP Battle Game</h2>
@@ -30,7 +27,6 @@ export default function Home() {
                     <h2 className={Style.textPoll}>Encuesta</h2>
                 </a>
             </div>
-
         </div>
     )
 }

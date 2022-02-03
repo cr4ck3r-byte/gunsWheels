@@ -1,4 +1,5 @@
 import {BrowserRouter, BrowserRouter as Route, Switch} from "react-router-dom";
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import RedirecTo from "../components/RedirecTo";
 
@@ -26,6 +27,7 @@ export default function AppRouter() {
             Error 404
           </Route>
         </Switch>
+        <Footer/>
     </BrowserRouter>
     )
 }

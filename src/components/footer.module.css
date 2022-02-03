@@ -1,0 +1,48 @@
+.footer{
+    background-color: rgba(253, 190, 3, 0.65);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerElements{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.elementsLink{
+    text-decoration: none;
+    list-style: none;
+    padding: 15px;
+}
+
+.copy{
+    font-family: "Righteous", sans-serif;
+}
+.copy::after{
+    margin-left:10px;
+    font-size: 10px;
+    content: "coded by Osmar B."
+}
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {
+    .footer{       
+        padding-top: 80px;
+    }
+} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+    .footer{       
+        padding-top: 80px;
+    }
+} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 907px) {
+    .footer{       
+        padding-top: 80px;
+    }
+} */
