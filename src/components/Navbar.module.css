@@ -32,6 +32,7 @@
     width: 100%;
     justify-content:space-between;
     position: fixed;
+    z-index: 10;
 }
 
 .menu_off{
